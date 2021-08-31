@@ -1,0 +1,66 @@
+/* This is the CSS file for the web app "Welcome to the Jumble". */
+
+#side_bar{
+	width: 33.3%;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	color: white;
+	background-color: black;
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	justify-content: space-around;
+}
+
+h1{
+	text-align: center;
+	padding: 20px;
+	font-size: 35px;
+	font-family: Arial Black, Arial Rounded MT Bold, Arial;
+}
+
+table{
+	width: 40%;
+	height: 40%;
+	border: 3px solid white;
+	margin: 10%;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+tr,td{
+	border: 3px solid white;
+	padding: 5px;
+}
+
+#context{
+	width: 60%;
+	height: 5%;
+}
+	
+#range_bar{
+	padding: 5%;
+}
+
+#top_field,#bottom_field{
+	width: 66.6%;
+	height: 50%;
+	position: fixed;
+	left: 33.3%;
+}
+
+#top_field{
+	top: 0;
+	background-color: #00ccff;
+}
+
+#top_text, #bottom_text{
+	font-family: Courier, Arial Black, Arial;
+}
+
+#bottom_field{
+	top: 50%;
+	background-color: #00ff00;
+}

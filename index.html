@@ -1,0 +1,43 @@
+<!-- Xinyi Xiao -->
+<!-- This is the HTML file for the webpage "Welcome to the Jumble", -->
+<!-- which is a web application used to generate Caesar Cipher and Square -->
+<!-- Cipher. -->
+
+
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <meta charset="utf-8"/>
+    <title>WTTJ</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  
+  <body>
+
+    <header id="side_bar">
+		<h1>Welcome to the Jumble</h1>
+		<input type="text" id="context" value="Welcome to the Jumble">
+		<div id="range_bar">
+			<span id="range_value">0</span>
+			<input type="range" id="user_shift" value="0" min="0" max="26">
+		</div>
+		<button id="update">Update Square</button>
+		<table id="cipher_square">
+		</table>
+	</header>
+		
+	<div id="top_field">
+		<h1 id="top_text">Welcome to the Jumble</h1>
+	</div>
+	
+	<div id="bottom_field">
+		<h1 id="bottom_text">Welcome to the Jumble</h1>
+	</div>
+	
+	<script defer src="Caesar.js"></script>
+	<script defer src="Square.js"></script>
+  </body>
+
+</html>
+
